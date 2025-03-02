@@ -1,0 +1,4 @@
+#gcsun
+master	192.168.1.1	bigdata
+slave1	192.168.1.2	bigdata
+slave2	192.168.1.3	bigdata

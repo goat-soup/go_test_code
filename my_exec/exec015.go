@@ -3,7 +3,7 @@ package my_exec
 import (
 	"fmt"
 
-	"example.com/go_practise/tool"
+	"example.com/go_test_code/tool"
 )
 
 func Exec015() {

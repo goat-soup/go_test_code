@@ -7,8 +7,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"example.com/go_practise/log"
-	"example.com/go_practise/my_const"
+	"example.com/go_test_code/log"
+	"example.com/go_test_code/my_const"
 )
 
 /**

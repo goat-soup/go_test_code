@@ -1,7 +1,5 @@
 package main
 
-import "example.com/go_practise/pool"
-
 func main() {
 	// my_exec.Exec015()
 	// my_exec.Exec016()
@@ -18,6 +16,7 @@ func main() {
 	// pool.ConnectionPoolTest()
 	// pool.ObjectPoolTest()
 	// pool.ThreadPoolTest()
-	pool.CacheTest()
+	// pool.CacheTest()
 	// action.Analyzd_excel()
+
 }

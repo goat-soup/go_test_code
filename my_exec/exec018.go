@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"example.com/go_practise/tool"
+	"example.com/go_test_code/tool"
 )
 
 // Question:

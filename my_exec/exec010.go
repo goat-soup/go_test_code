@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"example.com/go_practise/set"
+	"example.com/go_test_code/set"
 )
 
 func Exec010() {

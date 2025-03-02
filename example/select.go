@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"example.com/go_practise/tool"
+	"example.com/go_test_code/tool"
 )
 
 func SelectTest() {

@@ -1,4 +1,4 @@
-package net_code
+package netcode
 
 import (
 	"fmt"
@@ -32,8 +32,12 @@ func handleRequest(conn net.Conn) {
 	_, err := conn.Read(buffer)
 	if err != nil {
 		fmt.Println("error Reading: ", err)
+	} else {
+		fmt.Println(string(buffer))
 	}
-	conn.Write(buffer)
+	// buffer = append(buffer, []byte("hello client")...)
+
+	conn.Write([]byte("hello client"))
 	conn.Close()
 }
 

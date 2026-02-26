@@ -1,9 +1,13 @@
 package main
 
-import "example.com/go_test_code/netcode"
+import (
+	"fmt"
+
+	"example.com/go_test_code/leetcode"
+)
 
 func main() {
 
-	netcode.TCPServer()
-
+	// netcode.TCPServer()
+	fmt.Println(leetcode.IsPowerOfThree(7))
 }

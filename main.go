@@ -8,5 +8,5 @@ func main() {
 
 	// netcode.TCPServer()
 	//fmt.Println(leetcode.IsPowerOfThree(7))
-	concurrency.ABC()
+	concurrency.WorkPool()
 }

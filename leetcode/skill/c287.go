@@ -1,4 +1,4 @@
-package leetcode
+package skill
 
 func FindDuplicate(nums []int) int {
 	temp := make(map[int]bool, len(nums)-1)

@@ -2,7 +2,7 @@ package leetcode
 
 import "strings"
 
-func uncommonFromSentences(s1 string, s2 string) []string {
+func UncommonFromSentences(s1 string, s2 string) []string {
 	m1 := make(map[string]int)
 	ss1 := strings.Split(s1, " ")
 	for _, v := range ss1 {

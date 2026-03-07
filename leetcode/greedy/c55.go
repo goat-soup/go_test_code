@@ -1,4 +1,4 @@
-package leetcode
+package greedy
 
 func CanJump(nums []int) bool {
 	reach := 0

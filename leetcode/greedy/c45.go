@@ -1,6 +1,6 @@
-package leetcode
+package greedy
 
-func jump(nums []int) int {
+func Jump(nums []int) int {
 	step := 0
 	end := 0
 	max_dst := 0

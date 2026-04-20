@@ -133,7 +133,7 @@ func ABC2() {
 		for i := range out {
 			select {
 			case <-ctx.Done():
-				break
+				return
 			default:
 				buffer[i] = true
 				for {

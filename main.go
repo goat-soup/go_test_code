@@ -1,13 +1,7 @@
 package main
 
-import (
-	"example.com/go_test_code/leetcode/stack"
-)
+import gintest "example.com/go_test_code/gin_test"
 
 func main() {
-
-	// netcode.TCPServer()
-	//fmt.Println(leetcode.IsPowerOfThree(7))
-	// fmt.Println(greedy.PartitionLabels("ababcbacadefegdehijhklij"))
-	stack.Mystack()
+	gintest.MyHttp()
 }

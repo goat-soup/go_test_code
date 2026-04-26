@@ -1,7 +1,9 @@
 package main
 
-import gintest "example.com/go_test_code/gin_test"
+import (
+	"example.com/go_test_code/example/concurrency"
+)
 
 func main() {
-	gintest.MyHttp()
+	concurrency.Counter()
 }
